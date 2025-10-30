@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Expeer | Links</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--brand:#0B2C34;--brand-2:#0F3F48;--bg:#F5F7F8;--text:#0B2C34;--muted:#5F7479;--white:#ffffff;}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:'Montserrat',system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:linear-gradient(180deg,var(--bg),#ffffff);color:var(--text);}
+    .wrap{max-width:560px;margin:0 auto;padding:28px 18px 48px;text-align:center;}
+    .avatar{width:104px;height:104px;border-radius:999px;display:inline-grid;place-items:center;background:var(--brand);color:#fff;font-weight:700;font-size:28px;letter-spacing:1px;box-shadow:0 10px 24px rgba(11,44,52,.25);margin:24px auto 12px;user-select:none;}
+    h1{font-size:22px;margin:8px 0 4px}
+    .subtitle{font-size:14px;color:var(--muted);margin-bottom:20px}
+    .bio{font-size:14px;color:var(--text);background:#ffffff;border:1px solid rgba(11,44,52,.08);padding:12px 14px;border-radius:12px;margin:0 auto 18px; text-align:left;}
+    .btn{display:block;width:100%;padding:14px 16px;margin:12px 0;text-decoration:none;color:var(--white);background:var(--brand);border-radius:14px;font-weight:700;box-shadow:0 8px 18px rgba(11,44,52,.25);transition:transform .05s ease, box-shadow .2s ease, background .2s ease;}
+    .btn:hover{transform:translateY(-1px);box-shadow:0 12px 22px rgba(11,44,52,.28);background:var(--brand-2)}
+    .btn.light{background:#ffffff;color:var(--brand);border:1px solid rgba(11,44,52,.12);box-shadow:0 6px 14px rgba(11,44,52,.10)}
+    .grid{display:grid;gap:12px}
+    .foot{margin-top:20px;font-size:12px;color:var(--muted)}
+    .badge{display:inline-block;font-size:11px;padding:6px 10px;border-radius:999px;border:1px solid rgba(11,44,52,.12);background:#ffffff;color:var(--brand);margin-top:8px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="avatar" aria-hidden="true">EX</div>
+    <h1>Expeer Consultoria</h1>
+    <div class="subtitle">Pós-obra sem dor de cabeça • CX, SAC e processos</div>
+    <p class="bio">
+      Reduzimos reclamações no pós-obra em até 50% com a Tríade da Resposta (Tempo, Conteúdo e Canal),
+      rotinas claras e indicadores práticos. Clique abaixo para falar com a gente 👇
+    </p>
+
+    <div class="grid">
+      <a class="btn" href="https://wa.me/5547999298796?text=Ol%C3%A1%2C%20quero%20reduzir%20reclama%C3%A7%C3%B5es%20no%20p%C3%B3s-obra%20com%20a%20Expeer.%20Podemos%20agendar%20um%20diagn%C3%B3stico%20de%2020%20min%3F%20%F0%9F%93%8C" target="_blank" rel="noopener">💬 Falar no WhatsApp</a>
+      <a class="btn light" href="https://go.hotmart.com/N102687912F" target="_blank" rel="noopener">📕 Comprar o e-book</a>
+      <a class="btn light" href="https://www.linkedin.com/company/expeerconsultoria/?viewAsMember=true" target="_blank" rel="noopener">🔗 Ver conteúdos no LinkedIn</a>
+      <a class="btn" href="mailto:contato@expeer.com.br?subject=Proposta%20Expeer%20Consultoria&body=Oi%2C%20quero%20entender%20como%20voc%C3%AAs%20podem%20ajudar%20a%20reduzir%20as%20reclama%C3%A7%C3%B5es%20no%20meu%20p%C3%B3s-obra." target="_blank" rel="noopener">✉️ Solicitar proposta</a>
+    </div>
+
+    <div class="foot">
+      <span class="badge">Expeer • Construção civil</span>
+      <div style="margin-top:10px">© <span id="y"></span> Expeer Consultoria</div>
+    </div>
+  </div>
+
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
